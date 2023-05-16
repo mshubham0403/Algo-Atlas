@@ -2,12 +2,7 @@
 
 Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city? This is the Travelling Salesman Problem (TSP) that this projects tackles. In doing so, several greedy algorithms have been implemented and animated from scratch, showing how different approaches lead to apparently similar, but still wildly varying results. 
 
-## Deployed App
-You can play with the deployed app [here](https://razvanborsan.github.io/tsp-visualizer/). The red dots represent cities or provinces; the yellow dot is the current starting point (the origin city mentioned earlier). 
 
-Preview:
-
-![tsp-visualizer](https://user-images.githubusercontent.com/22635895/166138782-69e92708-912f-42d3-a3a8-e8bf5afa90cb.gif)
 
 ### Tech stack
 
