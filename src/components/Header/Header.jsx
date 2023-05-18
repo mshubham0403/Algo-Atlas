@@ -14,13 +14,11 @@ import {
   africaViewport,
   asianViewport,
   europeViewport,
-  romeViewport,
+
   southAmericaViewport,
   usaViewport,
 } from 'components/TspVisualizer/viewports';
 import { TSP } from 'algorithms/constants';
-
-import romanProvinces from 'shared/jsons/romanProvinces';
 import africanCapitals from 'shared/jsons/africanCapitals';
 import europeanCapitals from 'shared/jsons/europeanCapitals';
 import usaCapitals from 'shared/jsons/usaCapitals';
@@ -149,10 +147,6 @@ function Header({
             setTimestamp(0);
             setDistance(0);
             switch (e.target.value) {
-              case 'ROME':
-                setViewport(romeViewport);
-                setCapitals(romanProvinces);
-                break;
               case 'AFRICA':
                 setViewport(africaViewport);
                 setCapitals(africanCapitals);
@@ -178,7 +172,6 @@ function Header({
           }}
         >
           <option value="USA">United States of America</option>
-          <option value="ROME">The Roman Empire</option>
           <option value="EUROPE">Europe</option>
           <option value="AFRICA">Africa</option>
           <option value="SOUTH_AMERICA">South America</option>

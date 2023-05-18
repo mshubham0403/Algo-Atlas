@@ -20,16 +20,6 @@ export const europeViewport = {
   transitionInterpolator: new FlyToInterpolator(),
 };
 
-export const romeViewport = {
-  latitude: 43.5260,
-  longitude: 15.2551,
-  bearing: 0,
-  pitch: 0,
-  zoom: 3.6,
-  transitionDuration: 1500,
-  transitionInterpolator: new FlyToInterpolator(),
-};
-
 export const africaViewport = {
   latitude: 5.7832,
   longitude: 10.0085,

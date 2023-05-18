@@ -148,7 +148,7 @@ function TspVisualiser() {
       >
         <StaticMap
           mapStyle="mapbox://styles/mapbox/dark-v10"
-          mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_API_KEY}
+          mapboxApiAccessToken="pk.eyJ1IjoicGVyc2V2ZXJlMTAwMSIsImEiOiJjbGhzcGxzMTUwOWV2M2VvMXc5cjZ3eTBzIn0.rxlpEY11UGCo0DBvlkUVjw"
         />
       </DeckGL>
 
