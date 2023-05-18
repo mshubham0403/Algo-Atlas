@@ -10,5 +10,6 @@ I used React with Chakra UI for the interface and deck.gl for the map. The algor
 ### Run locally
 
 If you want to play around with the project locally, cloning it + `npm install` + `npm start` should suffice.
-
+### Working
+![demogif](https://github.com/mshubham0403/Algo-Atlas/assets/75219721/1e278a66-1b0e-4fac-83aa-217a92b8ab3e)
 
