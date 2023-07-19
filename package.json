@@ -1,6 +1,6 @@
 {
   "name": "shortest-path",
-"homepage": "https://algo-atlas.vercel.app/shortestPath/",
+  "homepage": "https://algo-atlas.vercel.app/shortestPath",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,8 +32,8 @@
     "build": "react-scripts build",
     "test": "craco test",
     "eject": "craco eject",
-    "predeploy": "npm run build"
-   
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
