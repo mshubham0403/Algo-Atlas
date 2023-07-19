@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Algo-Atlas/static/css/main.b1a8bf2e.css",
+    "main.js": "/Algo-Atlas/static/js/main.b0def0c3.js",
+    "static/media/githubLogo.svg": "/Algo-Atlas/static/media/githubLogo.833b63e28cadf07403bc81451d30b858.svg",
+    "index.html": "/Algo-Atlas/index.html",
+    "main.b1a8bf2e.css.map": "/Algo-Atlas/static/css/main.b1a8bf2e.css.map",
+    "main.b0def0c3.js.map": "/Algo-Atlas/static/js/main.b0def0c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1a8bf2e.css",
+    "static/js/main.b0def0c3.js"
+  ]
+}
