@@ -55,7 +55,7 @@ function Header({
         maxWidth="1440px"
         padding="10px"
       >
-        <a href="https://github.com/razvanborsan" target="_blank" rel="noreferrer">
+        <a href="https://github.com/mshubham0403" target="_blank" rel="noreferrer">
           <Image
             src={githubLogo}
             alt="Github icon"

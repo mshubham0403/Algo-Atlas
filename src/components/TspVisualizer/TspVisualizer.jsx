@@ -22,14 +22,14 @@ import {
   convexHull,
 } from 'algorithms';
 
-import usaCapitals from 'shared/jsons/usaCapitals';
+import asianCapitals from 'shared/jsons/asianCapitals';
 import { getCapitalsGeoJSON, getStartingPointLayer } from './constants';
-import { usaViewport } from './viewports';
+import { asianViewport } from './viewports';
 import AlgoInfoModal from '../AlgoInfoModal/AlgoInfoModal';
 
 function TspVisualiser() {
-  const [viewport, setViewport] = useState(usaViewport);
-  const [capitals, setCapitals] = useState(usaCapitals);
+  const [viewport, setViewport] = useState(asianViewport);
+  const [capitals, setCapitals] = useState(asianCapitals);
   const [pathLayer, setPathLayer] = useState();
   const [capitalsGeoJsonLayer, setCapitalsGeoJsonLayer] = useState();
   const [delay, setDelay] = useState();
